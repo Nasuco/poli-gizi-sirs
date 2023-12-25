@@ -9,7 +9,7 @@
 
 # SIRS
 
-Deskripsi singkat proyek di sini.
+Sistem Informasi Rumah Sakit
 
 ## Persyaratan Sistem
 
