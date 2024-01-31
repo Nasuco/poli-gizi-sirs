@@ -3,6 +3,7 @@
 namespace App\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
+use TCPDF;
 
 class Kernel extends HttpKernel
 {
@@ -66,5 +67,6 @@ class Kernel extends HttpKernel
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
         'user-access' => \App\Http\Middleware\UserAccess::class,
         'redirect.role' => \App\Http\Middleware\RedirectBasedOnRole::class,
+        'PDF' => TCPDF::class,
     ];
 }

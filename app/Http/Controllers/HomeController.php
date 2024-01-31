@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Pasien;
+
 
 class HomeController extends Controller
 {
@@ -26,18 +28,4 @@ class HomeController extends Controller
         return view('auth.login');
     }
 
-    public function ahligiziHome()
-    {
-        return view('ahligizi.index');
-    }
-
-    public function pramusajiHome()
-    {
-        return view('pramusaji.index');
-    }
-
-    public function distributorHome()
-    {
-        return view('distributor.index');
-    }
 }

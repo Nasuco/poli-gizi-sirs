@@ -33,8 +33,8 @@ class LoginController extends Controller
         {
             if (auth()->user()->type == 'ahligizi') {
                 return redirect()->route('ahligizi.home');
-            }else if (auth()->user()->type == 'pramusaji') {
-                return redirect()->route('pramusaji.home');
+            }else if (auth()->user()->type == 'kitchen') {
+                return redirect()->route('kitchen.home');
             }else if (auth()->user()->type == 'distributor') {
                 return redirect()->route('distributor.home');
             }else{

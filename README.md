@@ -22,7 +22,7 @@ Sistem Informasi Rumah Sakit
 
 ```bash
 # Clone repositori
-git clone https://github.com/Nasuco/SIRS.git
+git clone https://github.com/Nasuco/poli-gizi-sirs.git
 
 # Instal dependensi PHP menggunakan Composer
 composer install

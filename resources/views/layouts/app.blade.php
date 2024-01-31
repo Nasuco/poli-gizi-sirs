@@ -12,6 +12,7 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
@@ -81,18 +82,17 @@
 
 <!--
 =========================================================
-* Soft UI Dashboard - v1.0.3
+* Terimakasih Udah Mencoba Website Ini
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/soft-ui-dashboard
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://www.creative-tim.com/license)
+* Sistem Informasi Rumah Sakit
+* Poli Gizi PKU Muhammadiyah Gamping
 
-* Coded by Creative Tim
+* Coded by Creative Tim UNISA & UNIMMA
 
 =========================================================
 
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+* Untuk Memenuhi Tugas Besar Sistem Informasi Rumah Sakit
 -->
 <!DOCTYPE html>
 
@@ -111,10 +111,8 @@
   @endif
 
   <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
-  <title>
-    SIRS
-  </title>
+  <link rel="icon" type="image/png" href="../assets/img/logo-pku.png">
+  <title>Poli Gizi | @yield('title')</title>
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
   <!-- Nucleo Icons -->
@@ -166,6 +164,7 @@
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="../assets/js/soft-ui-dashboard.min.js?v=1.0.3"></script>
+  @yield('scripts')
 </body>
 
 </html>

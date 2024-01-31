@@ -4,14 +4,14 @@
 
 <div>
     <div class="container-fluid">
-        <div class="page-header min-height-300 border-radius-xl mt-4" style="background-image: url('../assets/img/curved-images/curved0.jpg'); background-position-y: 50%;">
-            <span class="mask bg-gradient-primary opacity-6"></span>
+        <div class="page-header min-height-300 border-radius-xl mt-4" style="background-image: url('../assets/img/rs.png'); background-position-y: 50%;">
+            <span class="mask opacity-6"></span>
         </div>
         <div class="card card-body blur shadow-blur mx-4 mt-n6">
             <div class="row gx-4">
                 <div class="col-auto">
                     <div class="avatar avatar-xl position-relative">
-                        <img src="../assets/img/bruce-mars.jpg" alt="..." class="w-100 border-radius-lg shadow-sm">
+                        <img src="../assets/img/profiledefault.jpg" alt="..." class="w-100 border-radius-lg shadow-sm">
                         <a href="javascript:;" class="btn btn-sm btn-icon-only bg-gradient-light position-absolute bottom-0 end-0 mb-n2 me-n2">
                             <i class="fa fa-pen top-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit Image"></i>
                         </a>
@@ -20,14 +20,14 @@
                 <div class="col-auto my-auto">
                     <div class="h-100">
                         <h5 class="mb-1">
-                            {{ __('Alec Thompson') }}
+                            {{ auth()->user()->name }}
                         </h5>
                         <p class="mb-0 font-weight-bold text-sm">
-                            {{ __(' CEO / Co-Founder') }}
+                            {{ auth()->user()->email }}
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 my-sm-auto ms-sm-auto me-sm-0 mx-auto mt-3">
+                <!-- <div class="col-lg-4 col-md-6 my-sm-auto ms-sm-auto me-sm-0 mx-auto mt-3">
                     <div class="nav-wrapper position-relative end-0">
                         <ul class="nav nav-pills nav-fill p-1 bg-transparent" role="tablist">
                             <li class="nav-item">
@@ -93,7 +93,7 @@
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -161,19 +161,22 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="user.location" class="form-control-label">{{ __('Location') }}</label>
-                                <div class="@error('user.location') border border-danger rounded-3 @enderror">
-                                    <input class="form-control" type="text" placeholder="Location" id="name" name="location" value="{{ auth()->user()->location }}">
+                                <label for="about">{{ 'About Me' }}</label>
+                                <div class="@error('user.about')border border-danger rounded-3 @enderror">
+                                    <textarea class="form-control" id="about" rows="3" placeholder="Say something about yourself" name="about_me">{{ auth()->user()->about_me }}</textarea>
                                 </div>
                             </div>
                         </div>
+                            <!-- <div class="form-group">
+                                <label for="user.location" class="form-control-label">{{ __('Alamat') }}</label>
+                                <div class="@error('user.location') border border-danger rounded-3 @enderror">
+                                    <input class="form-control" type="text" placeholder="Alamat" id="name" name="location" value="{{ auth()->user()->location }}">
+                                </div>
+                            </div>
+                        </div> -->
+                        
                     </div>
-                    <div class="form-group">
-                        <label for="about">{{ 'About Me' }}</label>
-                        <div class="@error('user.about')border border-danger rounded-3 @enderror">
-                            <textarea class="form-control" id="about" rows="3" placeholder="Say something about yourself" name="about_me">{{ auth()->user()->about_me }}</textarea>
-                        </div>
-                    </div>
+                    
                     <div class="d-flex justify-content-end">
                         <button type="submit" class="btn bg-gradient-dark btn-md mt-4 mb-4">{{ 'Save Changes' }}</button>
                     </div>

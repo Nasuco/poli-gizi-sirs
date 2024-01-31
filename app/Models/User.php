@@ -50,7 +50,7 @@ class User extends Authenticatable
     Protected function type(): Attribute
     {
         return new Attribute(
-            get: fn ($value) => ["superadmin", "ahligizi", "pramusaji", "distributor"][$value],
+            get: fn ($value) => ["superadmin", "ahligizi", "kitchen", "distributor"][$value],
         );
     }
 }

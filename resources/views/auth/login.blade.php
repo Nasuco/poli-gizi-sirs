@@ -159,9 +159,9 @@
               <div class="card card-plain mt-8">
                 <div class="card border-0 bg-transparent">
                     <div class="card-header pb-0 text-left bg-transparent">
-                      <h3 class="font-weight-bolder text-info text-gradient">Selamat Datang di Indomaret</h3>
-                      <p class="mb-0">Pake akun dibawah ya bang<br></p>
-                      <p class="mb-0">email ama paswotnya:</p>
+                      <h3 class="font-weight-bolder text-info text-gradient">Selamat Datang di Poli Gizi PKU Muhammadiyah Gamping</h3>
+                      <p class="mb-0">Silahkan login akun<br></p>
+                      <p class="mb-0">email dan passwordnya:</p>
                   
                       <div class="row">
                         <div class="col-md-4">
@@ -174,9 +174,9 @@
                   
                         <div class="col-md-4">
                           <ul class="list-unstyled mb-0">
-                            <li class="fs-5"><strong>Pramusaji</strong></li>
-                            <li><strong>Email:</strong> pramusaji@sirs.com</li>
-                            <li><strong>Password:</strong> pramusaji</li>
+                            <li class="fs-5"><strong>Kitchen</strong></li>
+                            <li><strong>Email:</strong> kitchen@sirs.com</li>
+                            <li><strong>Password:</strong> kitchenn</li>
                           </ul>
                         </div>
                   
@@ -214,7 +214,7 @@
                     </div>
                     <div class="form-check form-switch">
                       <input class="form-check-input" type="checkbox" id="rememberMe" checked="">
-                      <label class="form-check-label" for="rememberMe">Remember me</label>
+                      <label class="form-check-label" for="rememberMe">Ingatkan saya</label>
                     </div>
                     <div class="text-center">
                       <button type="submit" class="btn bg-gradient-info w-100 mt-4 mb-0">{{ __('Login') }}</button>
@@ -222,19 +222,19 @@
                   </form>
                 </div>
                 {{-- <div class="card-footer text-center pt-0 px-lg-2 px-1">
-                <small class="text-muted">Forgot you password? Reset you password 
-                  <a href="/login/forgot-password" class="text-info text-gradient font-weight-bold">here</a>
+                <small class="text-muted">Lupa kata sandi? Atur ulang kata sandi 
+                  <a href="/login/forgot-password" class="text-info text-gradient font-weight-bold">di sini</a>
                 </small>
                   <p class="mb-4 text-sm mx-auto">
-                    Don't have an account?
-                    <a href="register" class="text-info text-gradient font-weight-bold">Sign up</a>
+                    Belum punya akun?
+                    <a href="register" class="text-info text-gradient font-weight-bold">Daftar</a>
                   </p>
                 </div> --}}
               </div>
             </div>
             <div class="col-md-6">
               <div class="oblique position-absolute top-0 h-100 d-md-block d-none me-n8">
-                <div class="oblique-image bg-cover position-absolute fixed-top ms-auto h-100 z-index-0 ms-n6" style="background-image:url('../assets/img/curved-images/curved6.jpg')"></div>
+                <div class="oblique-image bg-cover position-absolute fixed-top ms-auto h-100 z-index-0 ms-n6" style="background-image:url('../assets/img/curved-images/1656064262894.jpeg')"></div>
               </div>
             </div>
           </div>
