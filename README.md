@@ -34,10 +34,10 @@ SIRS (Sistem Informasi Rumah Sakit) Poli Gizi PKU Muhammadiyah Gamping adalah se
 # Clone repositori
 git clone https://github.com/Nasuco/poli-gizi-sirs.git
 
-# Instal dependensi PHP menggunakan Composer
+# Install dependensi PHP menggunakan Composer
 composer install
 
-# Instal node modules menggunakan npm
+# Install node modules menggunakan npm
 npm install
 
 # Salin berkas .env
