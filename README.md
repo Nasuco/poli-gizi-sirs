@@ -37,6 +37,9 @@ git clone https://github.com/Nasuco/poli-gizi-sirs.git
 # Instal dependensi PHP menggunakan Composer
 composer install
 
+# Instal node modules menggunakan npm
+npm install
+
 # Salin berkas .env
 cp .env.example .env
 
