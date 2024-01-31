@@ -9,7 +9,17 @@
 
 # SIRS Poli Gizi PKU Muhammadiyah Gamping
 
-Sistem Informasi Rumah Sakit PKU Muhammadiyah Gamping
+SIRS (Sistem Informasi Rumah Sakit) Poli Gizi PKU Muhammadiyah Gamping adalah sebuah proyek sistem informasi yang bertujuan untuk memonitoring kasus gizi buruk di Poli Gizi RS PKU Muhammadiyah Gamping. Proyek ini dibuat sebagai bagian dari tugas besar dalam Mata Kuliah Sistem Informasi Rumah Sakit.
+
+## Fitur Utama
+[x] Manajemen Skrining
+[x] Manajemen Dapur
+[x] Manajemen Distribusi
+
+## Peran Pengguna
+[x] Ahligizi
+[x] Pramusaji
+[x] Distributor
 
 ## Persyaratan Sistem
 
@@ -33,11 +43,9 @@ cp .env.example .env
 # Generate kunci aplikasi
 php artisan key:generate
 
-# Atur koneksi basis data pada berkas `.env`
+# Import database `SIRS_GIZI.sql` ke dalam sistem pengelola database
 
-# Jalankan migrasi dan pengisian data awal (jika ada)
-php artisan migrate --seed
+# Atur koneksi basis data pada berkas `.env`
 
 # Jalankan server lokal
 php artisan serve
-
