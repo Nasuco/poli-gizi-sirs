@@ -12,14 +12,14 @@
 SIRS (Sistem Informasi Rumah Sakit) Poli Gizi PKU Muhammadiyah Gamping adalah sebuah proyek sistem informasi yang bertujuan untuk memonitoring kasus gizi buruk di Poli Gizi RS PKU Muhammadiyah Gamping. Proyek ini dibuat sebagai bagian dari tugas besar dalam Mata Kuliah Sistem Informasi Rumah Sakit.
 
 ## Fitur Utama
-[x] Manajemen Skrining
-[x] Manajemen Dapur
-[x] Manajemen Distribusi
+- [x] Manajemen Skrining
+- [x] Manajemen Dapur
+- [x] Manajemen Distribusi
 
 ## Peran Pengguna
-[x] Ahligizi
-[x] Pramusaji
-[x] Distributor
+- [x] Ahligizi
+- [x] Pramusaji
+- [x] Distributor
 
 ## Persyaratan Sistem
 
