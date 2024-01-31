@@ -7,9 +7,9 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-# SIRS
+# SIRS Poli Gizi PKU Muhammadiyah Gamping
 
-Sistem Informasi Rumah Sakit
+Sistem Informasi Rumah Sakit PKU Muhammadiyah Gamping
 
 ## Persyaratan Sistem
 
