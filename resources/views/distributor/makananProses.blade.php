@@ -42,7 +42,7 @@
                         @if($proses->statusPengantaran == 0)
                         <p class="text-xs text-center font-weight-bold mb-0 text-danger">Belum Diantarkan</p>
                         @else
-                        <p class="text-xs text-center font-weight-bold mb-0">Sudah Diantarkan</p>
+                        <p class="text-xs text-center font-weight-bold mb-0">Telah Diantarkan</p>
                         @endif
                       </td>
                       <td class="align-middle text-center text-sm">
